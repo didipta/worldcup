@@ -24,9 +24,8 @@ main
 {
     width:100%;
     height: 80vh;
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    justify-content:center;
+    display:flex;
+    justify-content:space-between;
     background-color:black;
     border-radius: 30px;
     align-items: center;
@@ -37,8 +36,10 @@ main
 .top_section .heading
 {
     width: 531px;
+    height:500px;
     margin: 20px;
     padding:30px;
+    padding-top: 100px;
     
     
 }
@@ -134,8 +135,7 @@ main
 {
     width: 350px;
     text-align:center;
-    align-items:center;
-    justify-content:center;
+    margin-top:40px;
 
     
     
